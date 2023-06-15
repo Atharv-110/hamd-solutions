@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import { Footer, Header, Wrapper } from '../../../layout';
+import { Footer, HeaderFive, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 import BlogArea from './blog-area';
 import BrandArea from './brand-area';
 import CreativeArea from './creative-area';
-import HeroArea from './hero-area';
+import HeroArea from '../home-5/hero-area';
 import NewsLetter from './news-letter';
 import ProjectArea from './project-area';
 import ServicesArea from './services-area';
@@ -18,7 +18,7 @@ const Home = () => {
   }, [])
   return (
     <Wrapper>
-      <Header />
+      <HeaderFive />
       <HeroArea />
       <CreativeArea/>
       <BrandArea/>

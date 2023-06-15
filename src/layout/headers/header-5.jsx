@@ -25,7 +25,7 @@ const HeaderFive = () => {
                 <div className="tp-main-menu tp-menu-black tp-bs-menu text-center z-index-1">
                   <nav id="mobile-menu">
                     {/* nav menus start */}
-                    <NavMenus />
+                    {/* <NavMenus /> */}
                     {/* nav menus end */}
                   </nav>
                 </div>

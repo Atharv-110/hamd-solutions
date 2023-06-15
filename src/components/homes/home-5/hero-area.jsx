@@ -75,7 +75,7 @@ const HeroArea = () => {
             </div>
           </div>
         </div>
-        <div className="tp-hero-icon-five">
+        {/* <div className="tp-hero-icon-five">
           <div className="tp-hero-social bp-hero-social tp-hero-social-bg-color">
             {social_links.map((l, i) => (
               <a key={i} className={`social-icon-${l.num} ${l.title === 'Behance' ? 'd-md-none' : ''}`} 
@@ -84,7 +84,7 @@ const HeroArea = () => {
               </a>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
