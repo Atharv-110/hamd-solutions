@@ -9,6 +9,8 @@ import NewsLetter from './news-letter';
 import ProjectArea from './project-area';
 import ServicesArea from './services-area';
 import Testimonial from './testimonial';
+import ContactMain from '../../../components/contact';
+
 
 const Home = () => {
   useEffect(() => {
@@ -25,8 +27,9 @@ const Home = () => {
       <ServicesArea/>
       <ProjectArea/>
       <Testimonial/>
-      <BlogArea/>
-      <NewsLetter/>
+      {/* <BlogArea/> */}
+      <ContactMain />
+      {/* <NewsLetter/> */}
       <Footer/>
     </Wrapper>
   );

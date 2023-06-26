@@ -15,10 +15,10 @@ const Contact = () => {
 
   return (
     <Wrapper>
-      <HeaderSix />
-      <Breadcrumb title={'Contact'} />
+      {/* <HeaderSix /> */}
+      {/* <Breadcrumb title={'Contact'} /> */}
       <ContactArea/>
-      <FooterThree />
+      {/* <FooterThree /> */}
     </Wrapper>
   );
 };
